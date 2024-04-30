@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { EducationRoutingModule } from './education-routing.module';
 import { MyEducationComponent } from './my-education/my-education.component';
+import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule({
@@ -10,6 +11,7 @@ import { MyEducationComponent } from './my-education/my-education.component';
     MyEducationComponent
   ],
   imports: [
+    MatTableModule,
     CommonModule,
     EducationRoutingModule
   ]
