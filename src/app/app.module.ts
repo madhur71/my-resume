@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { EducationRoutingModule } from './education/education-routing.module';
 import { EducationModule } from './education/education.module';
 import { HeaderComponent } from './header/header.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -13,9 +15,11 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
+    MatSlideToggleModule,
     BrowserModule,
     AppRoutingModule,
-    EducationModule
+    EducationModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
