@@ -8,14 +8,20 @@ import { EducationModule } from './education/education.module';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { SkillsComponent } from './skills/skills.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    SkillsComponent,
+    ProjectComponent
   ],
   imports: [
     MatTableModule,
+    MatSlideToggleModule,
     BrowserModule,
     AppRoutingModule,
     EducationModule,

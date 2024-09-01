@@ -1,0 +1,23 @@
+.infoLeft{
+    width: 97%;
+    margin: auto;
+    padding: 8%;
+    background: white;
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 20px;
+    background: #f9d729;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f9d729;
+    border-radius: inherit;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+}

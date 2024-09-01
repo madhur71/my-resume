@@ -2,3 +2,40 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+div, p , ul, span{
+    font-family: Arial, sans-serif;
+}
+
+.mat-body p, .mat-body-1 p, .mat-typography p {
+    margin: 0px 0 6px;
+}
+.container-fluid{
+    background: #F2f2f2f2;
+    padding-top: 30px;
+}
+.pointer{
+    cursor: pointer;
+}
+.button{
+    padding: 14px 36px;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 20px;
+    background: #f9d729;
+    border: none;
+}
+.button img{
+    width: 14px;
+}
+button:focus, button:hover, button:visited, button:active{
+    border: none;
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+.contactInfo img{
+    width: 60px;
+}

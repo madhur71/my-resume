@@ -1,11 +1,31 @@
-<div>
-    <p routerLink="/education/dashboard" > ACADEMIC DETAILS </p>
-</div>
-<div class="row">
-    <div class="col-sm-4">
+<div style="padding-bottom: 60px;" class="row container-fluid">
+    <div class="col-sm-5">
         <app-header></app-header>
     </div>
-    <div class="col-sm-8">
-        <router-outlet></router-outlet>
+    <div class="col-sm-7">
+        <div class="infoLeft">
+            <!-- <div class="contactInfo">
+                <img src="./../assets/Gmail.png">
+                <img src="./../assets/linkedin.webp">
+            </div> -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item pointer">
+                  <p class="nav-link m-0" routerLinkActive="active" routerLink="/education/About" >About</p>
+                </li>
+                <li class="nav-item pointer">
+                  <p class="nav-link m-0" routerLinkActive="active" routerLink="/education/dashboard">ACADEMIC DETAILS</p>
+                </li>
+                <li class="nav-item pointer">
+                  <p class="nav-link m-0" routerLinkActive="active" routerLink="/education/skills">TECHNICAL SKILLS</p>
+                </li>
+                <li class="nav-item pointer">
+                  <p class="nav-link m-0" routerLinkActive="active" routerLink="/education/project">PROJECTS</p>
+                </li>
+                <!-- <div>
+                    <mat-slide-toggle></mat-slide-toggle>
+                </div> -->
+            </ul>
+            <router-outlet></router-outlet>
+        </div>
     </div>
 </div>

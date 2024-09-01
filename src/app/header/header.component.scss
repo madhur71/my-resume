@@ -1,5 +1,39 @@
+.profile .pImg{
+    width: 80%;
+    padding: 1%;
+    margin: 8%;
+    border: 1px solid;
+}
 .profile{
-    width: 100%;
-    height: 80vh;
-    object-fit: contain;
+    
+}
+.info{
+    background: white;
+    width: 80%;
+    margin: auto;
+}
+.line{
+    position: relative;
+}
+.dot {
+    height: 31px;
+    font-size: 16px;
+    align-content: center;
+    border-left: 7px solid #f9d729;
+}
+li{
+    position: relative;
+}
+.liLine{
+    position: absolute;
+    background-color: #f9d729;
+    height: 11px;
+    width: 12px;
+    left: -18px;
+    top: 9px;
+}
+.Button{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10px;
 }
