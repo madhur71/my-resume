@@ -6,9 +6,9 @@
 }
 .newClass{
     padding-bottom: 60px;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    background: #f9d729;
+    background: #eee;
     padding-top: 12px;
 }
 .nav-tabs {
@@ -43,5 +43,8 @@
     }
     ul{
         margin-bottom: 5px !important;
+    }
+    .newClass{
+        background: #f9d729;
     }
 }
