@@ -1,5 +1,6 @@
 .profile .pImg{
     width: 80%;
+    height: max-content;
     padding: 1%;
     margin: 8%;
     border: 1px solid;
@@ -36,4 +37,30 @@ li{
     display: flex;
     justify-content: end;
     padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 720px) {
+    .profile .pImg {
+        width: 25%;
+        padding: 1%;
+        margin: 1%;
+        border: 1px solid;
+    }
+    .dFlexOnSmallScreeen{
+        display: flex;
+    }
+    .info {
+        width: 100%;
+        padding: 10px;
+    }
+    .infoLeft {
+        width: 100%;
+    }
+    .button {
+        padding: 4px 27px;
+        color: white;
+        font-weight: bolder;
+        font-size: 8px;
+        border-radius: 13px;
+    }
 }

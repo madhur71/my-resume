@@ -4,6 +4,13 @@
     padding: 8%;
     background: white;
 }
+.newClass{
+    padding-bottom: 60px;
+    width: 80%;
+    margin: auto;
+    background: #f9d729;
+    padding-top: 12px;
+}
 .nav-tabs {
     border-bottom: 1px solid #dee2e6;
     margin-bottom: 20px;
@@ -20,4 +27,21 @@
 }
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     border-color: transparent;
+}
+
+@media only screen and (max-width: 720px) {
+    .infoLeft{
+        width: 100%;
+        padding: 10px;
+    }
+    .nav-link{
+        font-size: 10px;
+        padding: 1px 10px;
+    }
+    .newClass{
+        width: 100%;
+    }
+    ul{
+        margin-bottom: 5px !important;
+    }
 }

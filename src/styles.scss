@@ -39,3 +39,8 @@ ul{
 .contactInfo img{
     width: 60px;
 }
+@media only screen and (max-width: 720px) {
+    .button img {
+        width: 8px;
+    }
+}
